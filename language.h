@@ -1,14 +1,15 @@
 //**********************************************//
-//  LANGUAGE SELECTION. Uncomment only one line //
+// LANGUAGE SELECTION. Uncomment only one line. //
+// Defaults to 🇬🇧                               //
 //**********************************************//
-#define LANG_ENG  // English
-//#define LANG_FRA  // French
-//#define LANG_DE   //  German
-//#define LANG_RU   //  Russian, use together with the russian font in libraries folder
-//#define LANG_ES   //  Spanish
-//#define LANG_CZ   //  Czech
-//#define LANG_IT   //  Italian
-//#define LANG_EE   //  Estonian
+#define LANG_ENG    // English 🇬🇧
+//#define LANG_FRA  // French 🇫🇷
+//#define LANG_DE   // German 🇩🇪
+//#define LANG_RU   // Russian. Use together with the russian font in libraries folder 🇷🇺
+//#define LANG_ES   // Spanish 🇪🇸
+//#define LANG_CZ   // Czech 🇨🇿
+//#define LANG_IT   // Italian 🇮🇹
+//#define LANG_EE   // Estonian 🇪🇪
 
 #ifdef LANG_EE
   #define defaultFont System5x7mod
