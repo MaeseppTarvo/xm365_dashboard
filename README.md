@@ -5,10 +5,10 @@
  ██ ██  ██  ██  ██      ██ ██    ██      ██ 
 ██   ██ ██      ██ ██████   ██████  ███████ 
 </pre>
-Menu:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Break + Throttle for ~1 sec</br>
-Navigate:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Short Throttle</br>
+Menu:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Break + Throttle for ~1 sec</br>
+Navigate:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Short Throttle</br>
 Enter|Select:&nbsp;&nbsp;Long Throttle</br>
-Go back:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Brake</br>
+Go back:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Brake</br>
 
 Switch between screens: Scooter on IDLE + short throttle, brake or both
 
