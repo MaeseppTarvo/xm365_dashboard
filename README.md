@@ -1,12 +1,14 @@
-//  _  _  __  __  ___   _   ___ 
-// ( \/ )(  \/  )(__ ) / ) | __)
-//  )  (  )    (  (_ \/ _ \|__ \
-// (_/\_)(_/\/\_)(___/\___/(___/
-
-Menu:          Break + Throttle for ~1 sec
-Navigate:      Short Throttle
-Enter|Select:  Long Throttle
-Go back:       Brake
+<pre>
+██   ██ ███    ███ ██████   ██████  ███████ 
+ ██ ██  ████  ████      ██ ██       ██      
+  ███   ██ ████ ██  █████  ███████  ███████ 
+ ██ ██  ██  ██  ██      ██ ██    ██      ██ 
+██   ██ ██      ██ ██████   ██████  ███████ 
+</pre>
+Menu:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Break + Throttle for ~1 sec</br>
+Navigate:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Short Throttle</br>
+Enter|Select:&nbsp;&nbsp;Long Throttle</br>
+Go back:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Brake</br>
 
 Switch between screens: Scooter on IDLE + short throttle, brake or both
 
