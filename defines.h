@@ -88,8 +88,7 @@ struct {
   unsigned int cs; //cs of data into buffer
   unsigned char _dynQueries[5];
   unsigned char _dynSize = 0;
-}
-_Query;
+}_Query;
 
 volatile unsigned char _NewDataFlag = 0; //assign '1' for renew display once
 volatile unsigned char _Hibernate = 0; //disable requests. For flashind or other things
@@ -109,14 +108,14 @@ struct __attribute__((packed)) CMD {
   uint8_t rlen;
   uint8_t param;
   uint16_t value;
-}
-_cmd;
+}_cmd;
 
 const uint8_t _commandsWeWillSend[] = {
   1,
   8,
   10
 }; //insert INDEXES of commands, wich will be send in a circle
+
 // INDEX                     //0     1     2     3     4     5     6     7     8     9    10    11    12    13    14
 const uint8_t _q[] PROGMEM = {
   0x3B,
@@ -197,8 +196,7 @@ struct {
   unsigned char selectedMenuItem;
   unsigned char bigVar; //variant of big digits in riding mode (speed > 1kmh)
   unsigned char dispVar; //variant of data on display (menu, big, min)
-}
-_Menu;
+}_Menu;
 
 const char mainMenuItemm1[] PROGMEM = {
   "RECUP"
@@ -350,16 +348,14 @@ struct { //D
   //unsigned char volth;
   //unsigned char voltl;
   unsigned int loopsTime;
-}
-D;
+}D;
 
 struct __attribute__((packed)) ANSWER_HEADER { //header of receiving answer
   uint8_t len;
   uint8_t address;
   uint8_t hz;
   uint8_t cmd;
-}
-AnswerHeader;
+}AnswerHeader;
 
 /*
 //----- states of controllable var :)
@@ -381,17 +377,15 @@ struct __attribute__((packed)) {
   uint8_t ledBatt; //battery status 0 - min, 7(or 8...) - max
   uint8_t headLamp; //0-off, 0x64-on
   uint8_t beepAction;
-}
-S21C00HZ64;
+}S21C00HZ64;
 
 struct __attribute__((packed)) A20C00HZ65 {
   uint8_t hz1;
-  uint8_t throttle; //throttle
-  uint8_t brake; //brake
+  uint8_t throttle;
+  uint8_t brake;
   uint8_t hz2;
   uint8_t hz3;
-}
-S20C00HZ65;
+}S20C00HZ65;
 
 // Battery
 struct __attribute__((packed)) A25C31 {
@@ -402,8 +396,7 @@ struct __attribute__((packed)) A25C31 {
   int16_t voltage; //battery voltage   divided by 100 = V
   uint8_t temp1; //-=20
   uint8_t temp2; //-=20
-}
-S25C31;
+}S25C31;
 
 struct __attribute__((packed)) A25C40 {
   int16_t cell1; //cell1 divided by 1000
@@ -421,13 +414,11 @@ struct __attribute__((packed)) A25C40 {
   int16_t cell13;
   int16_t cell14;
   int16_t cell15;
-}
-S25C40;
+}S25C40;
 
 struct __attribute__((packed)) A23C3E {
   int16_t i1; //mainframe temp
-}
-S23C3E;
+}S23C3E;
 
 struct __attribute__((packed)) A23CB0 {
   //32 bytes;
@@ -439,8 +430,7 @@ struct __attribute__((packed)) A23CB0 {
   uint16_t elapsedPowerOnTime; //time from power on, in seconds
   int16_t mainframeTemp; // divided by 10
   uint8_t u2[8];
-}
-S23CB0;
+}S23CB0;
 
 struct __attribute__((packed)) A23C23 { //skip
   uint8_t u1;
@@ -448,11 +438,9 @@ struct __attribute__((packed)) A23C23 { //skip
   uint8_t u3; //0x30
   uint8_t u4; //0x09
   uint16_t remainMileage; // /100 
-}
-S23C23;
+}S23C23;
 
 struct __attribute__((packed)) A23C3A {
   uint16_t powerOnTime;
   uint16_t ridingTime;
-}
-S23C3A;
+}S23C3A;

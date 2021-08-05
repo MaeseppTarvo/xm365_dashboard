@@ -35,8 +35,8 @@ void setup() {
 }
 
 void displayDebugInfo() {
-  static
-  const unsigned char PROGMEM bug_icon_bmp[] = {
+  
+  static const unsigned char PROGMEM bug_icon_bmp[] = {
     0x00,
     0x00,
     0x00,
